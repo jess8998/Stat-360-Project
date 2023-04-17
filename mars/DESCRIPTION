@@ -1,0 +1,22 @@
+Package: mars
+Type: Package
+Title:Regression Modeling Analysis Utilizing Friedman's Approach
+Version: 0.1.0
+Authors@R: 
+    person("Adriel Stanley", "Vidianto", email = "adriel_vidianto@sfu.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Jesslyn Devina", "Anwar", email = "jda124@sfu.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Sumin", "Kang", email = "smkang@sfu.ca", role = c("aut", "cre"),
+          comment = c(ORCID = "YOUR-ORCID-ID"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: This package implements the Multivariate Adaptive Regression Splines (MARS) technique developed by Friedman to determine the optimal curve of fit for nonlinear functions. It returns a ‘mars’ object containing the final regression result as well as details about the basis functions used.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports: 
+    ISLR,
+    stats
+Depends: 
+    R (>= 2.10)
